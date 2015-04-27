@@ -15,7 +15,7 @@ a {
     float:left;
     position:absolute;
     top:calc(4.5%);
-    left:calc(63%);
+    left:calc(62%);
 	z-index:100;
 }
 
@@ -99,7 +99,7 @@ a {
 	width:500px;
 	height:500px;
 	top:calc(20%);
-	left:calc(30% - 250px);
+	left:calc(30% - 200px);
 }
 
 .section{

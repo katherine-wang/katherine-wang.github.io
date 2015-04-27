@@ -1,8 +1,14 @@
 $(document).ready(function() {
 
-$(".img-arrow").click(function(){
+
+$(".img-downarrow").click(function(){
         $(".full-page").css( "margin-top", "-=650px");
 });
+
+$("#up").click(function(){
+        $(".full-page").css( "margin-top", "+=650px");
+});
+
 
 $(window).scroll(function(e) {
 	var height=parseInt($('.full-page').css('margin-top').replace("px", ""));

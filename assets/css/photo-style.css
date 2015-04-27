@@ -1,0 +1,147 @@
+body {
+  margin: 0 auto;
+  position: relative;
+  height:1000px;
+}
+
+a { 
+	text-decoration: none;
+	color: inherit;
+}
+
+.navigation{
+	width:500px;
+    height:50px;
+    float:left;
+    position:absolute;
+    top:calc(4.5%);
+    left:calc(62%);
+	z-index:100;
+}
+
+.nav-item{
+	display: inline-block;
+	font-family: 'Hind';
+	color:white;
+	font-weight:300;
+	font-size:24px;
+	padding-right:30px;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index:0;
+}
+
+.dropdown-box{
+	position: absolute;
+	background:#CC4040;
+	width:150px;
+	height:95px;
+	z-index:100;
+	font-family: 'Hind';
+	color:white;
+	font-weight:300;
+	text-transform: lowercase;
+	display:none;
+	left: 0px;
+}
+
+.dropdown-box-active{
+	opacity:0.9;
+	visibility:visible;
+}
+
+.dropdown-text{
+	margin-left:calc(50% - 75px);
+	font-size:20px;
+	width:150px;
+	height:100px;
+}
+.dropdown-text ul{
+	list-style-type: none; 
+	padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-text ul li a { 
+	text-decoration: none;
+	color: inherit;
+}
+
+#portfolio:hover .dropdown-box {
+	display:block;
+}
+
+.container{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+.gallery{
+	height:1000px;
+    width:1000px; 
+    position:absolute;
+    top:0;
+    left:calc(50% - 500px);
+}
+
+.image{
+	position:relative;
+	height:200px;
+    width:300px; 
+	top:calc(20%);
+	float:left;
+	margin:10px;
+	opacity:0.7;
+	overflow:hidden;
+}
+
+.description{
+	font-family:'Hind';
+	font-size:14px;
+	position:absolute;
+   	background-color: #CC4040;
+   	color: white;
+   	padding: 10px;
+   	text-align: center;
+   	margin-top: -45px;
+   	opacity:0.7;
+   	-webkit-transition: all 0.5s ease-out;
+   	-moz-transition: all 0.5s ease-out;
+   	-o-transition: all 0.5s ease-out;
+   	transition: all 0.5s ease-out;
+}
+
+.image:hover {
+	opacity:1;
+}
+
+.image:hover .description{
+	margin-top:0;
+}
+
+.ml{
+	color:white;
+	font-family:"Droid Sans";
+	font-size:30px;
+	width:100px;
+	height:50px;
+	position:absolute;
+	top:calc(65%);
+	left:calc(50% - 50px);
+	font-weight:700;
+	cursor:pointer;
+}
+
+.hidden-photos{
+	width:100%;
+	height:100%;
+	display:none;
+}

@@ -1,38 +1,37 @@
 $(document).ready(function() {
 
 $(".img-back-edu").click(function(){
-        $(".section").fadeIn(100);
-        $(".education-text").fadeOut(100);
-
+        $(".education-text").fadeOut(400);
+        setTimeout(function(){$(".section").fadeIn(1000);}, 300); 
 });
 
-$(".img-back-exp").click(function(){
-        $(".section").fadeIn(100);
-        $(".exp-text").fadeOut(100);
+$(".img-back-exp").click(function(){ 
+        $(".exp-text").fadeOut(400);
+        setTimeout(function(){$(".section").fadeIn(1000);}, 300);
 
 });
 
 $(".img-back-skills").click(function(){
-        $(".section").fadeIn(100);
-        $(".skills-text").fadeOut(100);
+        $(".skills-text").fadeOut(400);
+        setTimeout(function(){$(".section").fadeIn(1000);}, 300);
 
 });
 
 $(".edu-nav-icon").click(function(){
-        $(".section").fadeOut(100);
-        $(".education-text").fadeIn(100);
+        $(".section").fadeOut(400);
+        setTimeout(function(){ $(".education-text").fadeIn(1000);}, 950);
 
 });
 
 $(".exp-nav-icon").click(function(){
-        $(".section").fadeOut(100);
-        $(".exp-text").fadeIn(100);
+        $(".section").fadeOut(400);
+        setTimeout(function(){ $(".exp-text").fadeIn(1000);}, 950);
 
 });
 
 $(".skills-nav-icon").click(function(){
-        $(".section").fadeOut(100);
-        $(".skills-text").fadeIn(100);
+        $(".section").fadeOut(400);
+        setTimeout(function(){ $(".skills-text").fadeIn(1000);}, 950);
 
 });
 
