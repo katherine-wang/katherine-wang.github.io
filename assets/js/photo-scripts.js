@@ -52,13 +52,13 @@ $(this).mouseout(function(){
 
   if(ml == 0){
       $(".hidden-photos").fadeIn(1000);
-      $(".ml").animate({'marginTop': "+=200px"},2000);
+      $(".ml").animate({'marginTop': "+=220px"},2000);
       setTimeout(function(){$(".ml").text("less");}, 1200); 
    }
     
    else{
     $(".hidden-photos").fadeOut(1000);
-    $(".ml").animate({'marginTop': "-=200px"},2000);
+    $(".ml").animate({'marginTop': "-=220px"},2000);
     setTimeout(function(){$(".ml").text("more");}, 1200); 
    }
     });
