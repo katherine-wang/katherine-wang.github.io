@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   position: relative;
+  height:700px;
 }
 
 .navigation{
@@ -73,7 +74,7 @@ body {
 }
 
 .container{
-	height:650px;
+	height:100%;
 	width:100%;
 	overflow:hidden;
 }
