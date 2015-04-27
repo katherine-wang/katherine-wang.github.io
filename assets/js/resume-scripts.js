@@ -1,38 +1,38 @@
 $(document).ready(function() {
 
 $(".img-back-edu").click(function(){
-        $(".section").fadeIn();
-        $(".education-text").fadeOut();
+        $(".section").fadeIn(100);
+        $(".education-text").fadeOut(100);
 
 });
 
 $(".img-back-exp").click(function(){
-        $(".section").fadeIn();
-        $(".exp-text").fadeOut();
+        $(".section").fadeIn(100);
+        $(".exp-text").fadeOut(100);
 
 });
 
 $(".img-back-skills").click(function(){
-        $(".section").fadeIn();
-        $(".skills-text").fadeOut();
+        $(".section").fadeIn(100);
+        $(".skills-text").fadeOut(100);
 
 });
 
 $(".edu-nav-icon").click(function(){
-        $(".section").fadeOut();
-        $(".education-text").fadeIn();
+        $(".section").fadeOut(100);
+        $(".education-text").fadeIn(100);
 
 });
 
 $(".exp-nav-icon").click(function(){
-        $(".section").fadeOut();
-        $(".exp-text").fadeIn();
+        $(".section").fadeOut(100);
+        $(".exp-text").fadeIn(100);
 
 });
 
 $(".skills-nav-icon").click(function(){
-        $(".section").fadeOut();
-        $(".skills-text").fadeIn();
+        $(".section").fadeOut(100);
+        $(".skills-text").fadeIn(100);
 
 });
 

@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   position: relative;
+  height:700px;
 }
 
 .navigation{
@@ -8,7 +9,7 @@ body {
     height:50px;
     float:left;
     position:absolute;
-    top:35px;
+    top:calc(4.5%);
     left:calc(63%);
 	z-index:100;
 }
@@ -31,14 +32,14 @@ a {
 }
 
 .container {
-	height: 650px;
+	height: 100%;
 	width:100%;
 	overflow: hidden; 
 }
 
 .full-page{
 	width:100%;
-	height:1300px;
+	height:1400px;
 	margin-top:0px;
 	-webkit-transition: all 0.5s;
 }
@@ -47,7 +48,7 @@ a {
 	display:block;
 	position:relative;
 	z-index:1;
-	height:650px;
+	height:700px;
 }
 
 #homepage{
