@@ -4,6 +4,11 @@ body {
   height:700px;
 }
 
+a { 
+	text-decoration: none;
+	color: inherit;
+}
+
 .navigation{
 	width:500px;
     height:50px;
